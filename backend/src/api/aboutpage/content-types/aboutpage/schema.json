@@ -1,18 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "aboutpages",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage",
-    "name": "homepage",
+    "singularName": "aboutpage",
+    "pluralName": "aboutpages",
+    "displayName": "Aboutpage",
     "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "seo": {
       "type": "component",
@@ -22,8 +20,7 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.hero",
-      "required": true
+      "component": "sections.hero"
     }
   }
 }
